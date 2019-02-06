@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    margin: 20px;
+    padding: 20px;
+    min-width: 300px;
+    display: flex;
+}
+
+button {
+    margin: 20px;
+}
+
+.text-container {
+    margin: 20px;
+    padding: 20px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
